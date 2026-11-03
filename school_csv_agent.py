@@ -19,7 +19,7 @@ def ask_school_agent(prompt, csv_data):
     """Στέλνει τα δεδομένα του σχολείου και την ερώτηση στο Gemini API."""
     # Ανάκτηση του API Key από το περιβάλλον (ή τοποθέτησέ το απευθείας εδώ αν προτιμάς)
     # π.χ. client = genai.Client(api_key="ΤΟ_API_KEY_ΣΟΥ")
-    client = genai.Client(AQ.Ab8RN6KcfKUmpgydwsSgWnNt7-4bhd-3okEAfCd6yzHjGUbS2g)
+    client = genai.Client("AQ.Ab8RN6KcfKUmpgydwsSgWnNt7-4bhd-3okEAfCd6yzHjGUbS2g")
 
     # Ορισμός των οδηγιών συστήματος για να συμπεριφέρεται ως σχολικός βοηθός
     system_instruction = (
